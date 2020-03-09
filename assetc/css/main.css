@@ -1,0 +1,71 @@
+#wrapper{
+  width: 500px;
+  min-height: 50px;
+  margin: 0 auto;
+  box-shadow: 2px 4px 16px 5px rgba(0,0,0,0.2);
+  padding: 0.5rem;
+  position: relative;
+}
+#wrapper input[type="text"]{
+  width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+
+box-sizing: border-box;
+
+text-align: center;
+
+font-size: 25px;
+
+border: 2px solid dodgerblue;
+
+color: dodgerblue;
+
+font-family: verdana;
+}
+#wrapper h4{
+  background: #806f6f;
+  margin: 0;
+  text-align: center;
+  font-size: 33px;
+  padding: 0;
+  color: white;
+  border-bottom: 3px solid red;
+}
+#wrapper .area{
+    width: 100%;
+    justify-content: center;
+}
+#wrapper .area li{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: center;
+    
+align-content: space-between;
+    
+font-size: 25px;
+    
+border-bottom: 2px solid black;
+}
+#count{
+  position: absolute;
+  top: 70px;
+  bottom: 0px;
+  left: 13px;
+  font-size: 29px;
+  color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #d8caca;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 5px 2px #4de6df;
+  outline: 0;
+}
